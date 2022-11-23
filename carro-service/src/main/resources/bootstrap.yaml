@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: carro-service
+  cloud:
+    config:
+      enabled: true
+      uri:  http://localhost:8081
+#server.port=8002
+#spring.application.name=carro-service
