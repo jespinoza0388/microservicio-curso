@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: config-server
+          default-label: eureka #config-server
           uri: https://github.com/jespinoza0388/microservicio-curso
           search-paths: config-data
   application:
